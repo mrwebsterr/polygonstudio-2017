@@ -50,6 +50,9 @@ img {
     color: #C9554E;
     transition: 0.25s ease-in-out;
 }
+.fa:hover  header:after {
+    background-color: #C9554E;
+}
 .row {
     margin-right: 0;
 }
@@ -102,6 +105,12 @@ img {
     border-radius: 5%;
     box-shadow: 0 0 9px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
     transition: box-shadow 0.3s cubic-bezier(.25,.8,.25,1);
+}
+.features__item svg {
+    fill: #1B4A66;
+}
+.features .features__item:hover svg {
+    fill: #C9554E;
 }
 .features .col-sm:last-child {
     margin-right: 0;
@@ -201,6 +210,7 @@ li {
     height:654px;
     width: 65%;
     padding: 115px 0;
+    padding-left: 200px;
 }
 .contact-us__form {
     background-color: #fff;
@@ -229,6 +239,7 @@ form {
 .btn {
     outline: 0 !important;
     border: 0;
+    font-size: 0.7vw;
     border-radius: 0;
     width: 30%;
     overflow: hidden;
@@ -245,7 +256,9 @@ form {
 }
 .features-description__btn {
     position: relative;
-    top: 150px;
+    top: 60px;
+    padding: 20px;
+    width:40%;
 }
 .form__submit {
     margin-top: 30px;
@@ -258,7 +271,7 @@ footer {
     color: #ffffff;
     font-size: 22px;
     justify-content: space-between;
-    padding: 75px 260px;
+    padding: 75px 200px;
 }
 .footer__site {
     width: 90%;
@@ -266,6 +279,7 @@ footer {
     color: #ffffff;
     font-size: 22px;
     padding: 50px 130px;
+    padding-top: 30px;
     border-top: 2px solid #ffffff;
 }
 .page-footer__list {
