@@ -108,6 +108,11 @@ img {
 }
 .features__item svg {
     fill: #1B4A66;
+    width: 100%;
+    height: 100%;
+}
+.features__item:nth-child(2) svg {
+    height:80%;
 }
 .features .features__item:hover svg {
     fill: #C9554E;
